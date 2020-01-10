@@ -1,0 +1,259 @@
+.chart-controls-bar {
+    height: 30px;
+    left: 0;
+}
+
+.chart-controls-bar-buttons {
+    line-height: 30px;
+}
+
+.chart-controls-bar-buttons a {
+    padding: 4px 13px;
+    height: 30px;
+}
+
+.layout__area--top.header-chart-panel {
+    top: 0 !important;
+}
+
+.header-chart-panel .group {
+    margin: 0;
+}
+
+.header-chart-panel .group.header-group-properties {
+    margin-left: 0;
+}
+
+
+/*._tv-dialog{*/
+
+
+/*z-index: 1110 !important;*/
+
+
+/*}*/
+
+.real-op>a:nth-child(2) {
+    color: #8b8c8e;
+    stroke: #8b8c8e;
+    fill: #8b8c8e;
+}
+
+.common-op>a:nth-child(1) {
+    color: #8b8c8e;
+    stroke: #8b8c8e;
+    fill: #8b8c8e;
+}
+
+.chart-page .tv-side-toolbar .group .button:hover,
+.chart-page .tv-side-toolbar .group .button.selected,
+.chart-page .header-chart-panel .group .button:hover,
+.chart-page .header-chart-panel .group .button.selected {
+    background: rgba(52, 54, 63, .5);
+    color: #357ce1;
+}
+
+.chart-page .header-chart-panel .group .button.moment {
+    border-right: 1px solid #111114;
+}
+
+.chart-page .header-chart-panel .group .button svg {
+    vertical-align: middle;
+    margin: 0 !important;
+    fill: #697080;
+}
+
+.feature-no-touch ._tv-dialog .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .submenu:not(.disabled):not(.selected):hover:before {
+    border: 1px solid transparent;
+}
+
+.bottom-widgetbar-content.backtesting .button.active,
+.ch-controls .button.active,
+.feature-no-touch .bottom-widgetbar-content.backtesting .button:active,
+.feature-no-touch .ch-controls .button:active,
+.feature-no-touch .header-chart-panel .button.active:hover,
+.feature-no-touch .header-chart-panel .button:active,
+.feature-no-touch .hotlist-controls .button:active,
+.feature-no-touch .save-load-buttons .active:hover,
+.feature-no-touch .save-load-buttons a:not(.link):active,
+.feature-no-touch .symbol-edit-widget .button:active,
+.feature-touch .bottom-widgetbar-content.backtesting .button:active,
+.feature-touch .ch-controls .button:active,
+.feature-touch .header-chart-panel .button:active,
+.feature-touch .hotlist-controls .button:active,
+.feature-touch .save-load-buttons a:not(.link):active,
+.feature-touch .symbol-edit-widget .button:active,
+.header-chart-panel .button.active,
+.hotlist-controls .button.active,
+.save-load-buttons .active,
+.symbol-edit-widget .button.active {
+    background: rgba(52, 54, 63, .5) !important;
+}
+
+.header-chart-panel .space-single {
+    padding: 0;
+}
+
+.header-chart-panel .header-chart-panel-sizer {
+    border-top: 1px solid #111114;
+    border-bottom: 1px solid #111114;
+    height: 23px;
+    box-sizing: content-box;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left {
+    height: 23px;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left .group {
+    height: 100%;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left .group.header-group-properties {
+    border-left: 1px solid #141414;
+    border-right: 1px solid #141414;
+}
+
+
+/* .chart-page .header-chart-panel .group .button::before {
+    
+} */
+
+.chart-page .tv-side-toolbar .group {
+    height: 23px;
+}
+
+.chart-page .tv-side-toolbar .group .button,
+.chart-page .header-chart-panel .group .button {
+    font-weight: normal;
+    color: #697080;
+    background-color: #1f2126;
+    padding: 0 6px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.chart-page .button.selected,
+.chart-page .button.active {
+    background-color: rgba(52, 54, 63, .5) !important;
+}
+
+.chart-page .button.selected span,
+.chart-page .button.active span {
+    color: #357ce1;
+}
+
+.chart-page .tv-side-toolbar .group,
+.chart-page .header-chart-panel .group {
+    float: left;
+}
+
+.chart-page .tv-side-toolbar .header-group-properties,
+.chart-page .tv-side-toolbar .header-group-indicators,
+.chart-page .header-chart-panel .header-group-properties,
+.chart-page .header-chart-panel .header-group-indicators {
+    float: none;
+}
+
+.chart-page .tv-side-toolbar .header-group-fullscreen,
+.chart-page .header-chart-panel .header-group-fullscreen {
+    float: right;
+    padding-right: 5px;
+}
+
+
+/* 计数指标弹出框 */
+
+.tv-dialog.i-focused {
+    top: 45px!important;
+    height: calc(100% - 100px);
+    overflow: hidden;
+}
+
+.pane-legend {
+    top: -2px;
+}
+
+
+/* 设置弹出框 */
+
+._tv-dialog {
+    top: 45px!important;
+    overflow: auto;
+    height: calc(100% - 100px);
+    width: 80%;
+    left: 0!important;
+    right: 0;
+    margin: 0 auto;
+}
+
+.js-rootresizer__contents {
+    background-color: #1f2126;
+}
+
+.loading-indicator {
+    background: #1f2126;
+    transition: all 0s;
+}
+
+.tv-insert-indicator-dialog__items-list {
+    padding-bottom: 120px;
+}
+
+
+/* 左侧菜单样式 */
+
+.layout__area--left .tv-side-toolbar {
+    background-color: #1f2126 !important;
+}
+
+.tv-side-toolbar .tv-close-panel {
+    background-color: #1f2126 !important;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    bottom: 20%;
+}
+
+.chart-page .tv-side-toolbar .tools-group .button {
+    background-color: #1f2126 !important;
+}
+
+.chart-page .tv-side-toolbar .tools-group .button:hover {
+    background-color: #1f2126 !important;
+}
+
+
+/* legend样式重置 */
+
+.pane-legend {
+    color: rgb(90, 104, 129);
+}
+
+.pane-legend-line.pane-legend-wrap.main {
+    padding-top: 4px;
+    padding-right: 15px !important;
+}
+
+.pane-legend-line.pane-legend-wrap.main .pane-legend-item-value-wrap {
+    font-size: 9pt;
+    line-height: 20px;
+}
+
+.pane-legend-line.pane-legend-wrap.main .pane-legend-item-value-wrap span {
+    font-size: 11pt;
+}

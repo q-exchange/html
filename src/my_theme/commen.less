@@ -1,0 +1,177 @@
+@main_theme: #357ce1;
+@import url("../less/uc/loginRegister/light.less");
+
+.login_form {
+    background: #242e47;
+    min-height: 100vh;
+
+    .login_right {
+        background-color: @formBg;
+        border-radius: 3px;
+
+        form.ivu-form.ivu-form-label-right {
+            .ivu-form-item {
+                height: 54px;
+                position: relative;
+                .ivu-form-item-label {
+                    position: absolute;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 14px;
+                    color: #9aa5b5;
+                    left: 16px;
+                    top: 17px;
+                    z-index: 4;
+                    font-weight: 600;
+                    cursor: text;
+                    transform-origin: top left;
+                    transition: all .2s ease-out;
+                    display: flex;
+                    align-items: center;
+                    &:after {
+                        content: "";
+                    }
+
+                    &:before {
+                        content: "";
+                    }
+                }
+
+                .ivu-form-item-content {
+                    height: 100%;
+                    .ivu-input-wrapper.ivu-input-type {
+                        height: 100%;
+                        line-height: 1;
+                        z-index: 3;
+                        .ivu-input {
+                            border: 1px solid #dfe2e7;
+                            font-size: 14px;
+                            line-height: 16px;
+                            font-weight: 500;
+                            background-color: @formBg;
+                            height: 54px;
+                            color: #263241;
+                            position: absolute;
+                            caret-color: #357ce1;
+                            padding: 24px 16px 8px;
+
+                            &:focus {
+                                border: 1px solid #dfe2e7;
+                                box-shadow: 2px 2px 5px transparent, -2px -2px 4px transparent;
+                                border-color:#357ce1;
+                            }
+                        }
+                    }
+                    .ivu-form-item-error-tip{
+                        color: #fa5252;
+                        font-weight: 500;
+                        padding-top: 3px;
+                    }
+                    .ivu-select {
+                        height: 100%;
+                    }
+
+                    .ivu-select-selection {
+                        border: 1px solid #dfe2e7;
+                        font-size: 14px;
+                        background-color: @formBg;
+                        color: @formItemColor;
+                        height: 100%;
+
+                        &:focus {
+                            border: 1px solid #dfe2e7;
+                            box-shadow: 2px 2px 5px transparent, -2px -2px 4px transparent;
+                        }
+
+                        >div {
+                            height: 50px;
+                            .ivu-select-selected-value {
+                                font-size: 14px;
+                                height: 100%;
+                                line-height: 50px;
+                                font-weight: 500;
+                            }
+
+                            .ivu-select-arrow {
+                                line-height: 50px;
+                                top: 30px;
+                            }
+                        }
+                    }
+
+                    .ivu-btn-group {
+                        .ivu-btn.ivu-btn-default {
+                            background-color: #357ce1  !important;
+                            color: @formBtnFontColor  !important;
+                            &:hover {
+                                color: @main_theme  !important;
+                            }
+                        }
+
+                        .ivu-btn.ivu-btn-default.active {
+                            color: @main_theme  !important;
+                            background-color: @formItemBtnGroupBg  !important;
+                        }
+                    }
+                }
+            }
+            .ivu-form-item.ivu-form-item-error .ivu-form-item-content .ivu-input-wrapper.ivu-input-type .ivu-input{
+                border: 1px solid #fa5252;
+            }
+            .check-agree .agreeTips {
+                color: @agressTips;
+            }
+        }
+
+        .login_title {
+            color: @loginTitleColor;
+            text-align: center;
+            height: 88px;
+            font-size: 20px;
+            line-height: 88px;
+            font-weight: 500;
+        }
+
+        .to_register {
+            color: @loginTitleColor;
+        }
+    }
+}
+
+#sendCode {
+    position: absolute;
+    border: 1px solid @main_theme;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    // transform: translateY(-50%);
+    z-index: 5;
+    outline: none;
+    right: 0;
+    width: 30%;
+    border-radius: 0;
+    color: @main_theme;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login_form .login_right .login_btn.ivu-btn {
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    &:focus {
+        box-shadow: 2px 2px 5px transparent, -2px -2px 4px transparent;
+    }
+}
+
+/*
+  submenu 的亮色系，竖直方向的 after去除
+*/
+
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+    background: none;
+
+    &:after {
+        background: none;
+    }
+}

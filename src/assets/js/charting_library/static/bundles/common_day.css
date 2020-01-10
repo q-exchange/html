@@ -1,0 +1,228 @@
+.chart-controls-bar {
+    height: 30px;
+    left: 0;
+}
+
+.chart-controls-bar-buttons {
+    line-height: 30px;
+}
+
+.chart-controls-bar-buttons a {
+    padding: 4px 13px;
+    height: 30px;
+}
+
+.header-chart-panel .group.header-group-properties {
+    margin-left: 0;
+}
+
+.chart-page .tv-side-toolbar .group .button:hover,
+.chart-page .tv-side-toolbar .group .button.selected,
+.chart-page .header-chart-panel .group .button:hover,
+.chart-page .header-chart-panel .group .button.selected {
+    background: #fff;
+    color: #3399ff;
+    border: none;
+}
+
+.bottom-widgetbar-content.backtesting .button,
+.header-chart-panel .button,
+.hotlist-controls .button,
+.symbol-edit-widget .button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+
+.layout__area--top.header-chart-panel {
+    top: 0!important;
+}
+
+.feature-no-touch ._tv-dialog .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch ._tv-dialog .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .bottom-widgetbar-content.backtesting .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .header-chart-panel .submenu:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .button:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .custom-select .switcher:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .favored-list-container span:not(.disabled):not(.selected):hover:before,
+.feature-no-touch .properties-toolbar .submenu:not(.disabled):not(.selected):hover:before {
+    border-color: #f0f0f0;
+}
+
+.chart-page .tv-side-toolbar .group,
+.chart-page .header-chart-panel .group {
+    float: left;
+}
+
+.chart-page .tv-side-toolbar .header-group-properties,
+.chart-page .tv-side-toolbar .header-group-indicators,
+.chart-page .header-chart-panel .header-group-properties,
+.chart-page .header-chart-panel .header-group-indicators {
+    float: none;
+}
+
+.chart-page .tv-side-toolbar .header-group-fullscreen,
+.chart-page .header-chart-panel .header-group-fullscreen {
+    float: right;
+    padding-right: 5px;
+}
+
+
+/* 计数指标弹出框 */
+
+.tv-dialog.i-focused {
+    top: 45px!important;
+    height: calc(100% - 100px);
+    overflow: hidden;
+}
+
+
+/* 设置弹出框 */
+
+._tv-dialog {
+    top: 45px!important;
+    overflow: auto;
+    height: calc(100% - 100px);
+    width: 80%;
+    left: 0!important;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/* 
+  .chart-markup-table.pane>div{
+    padding-top: 20px;
+  } */
+
+.pane-legend {
+    top: -2px;
+}
+
+.js-rootresizer__contents {
+    background-color: #fff;
+}
+
+.loading-indicator {
+    background: #fff;
+    transition: all 0s;
+}
+
+.header-chart-panel .group {
+    margin: 0;
+}
+
+.header-chart-panel .group.header-group-properties {
+    margin-left: 0;
+}
+
+.chart-page .tv-side-toolbar .group .button:hover,
+.chart-page .tv-side-toolbar .group .button.selected,
+.chart-page .header-chart-panel .group .button:hover,
+.chart-page .header-chart-panel .group .button.selected {
+    background: rgba(52, 54, 63, .5);
+    color: #357ce1;
+}
+
+.chart-page .header-chart-panel .group .button.moment {
+    border-right: 1px solid #e6ecf2;
+}
+
+.chart-page .header-chart-panel .group .button svg {
+    vertical-align: middle;
+    margin: 0 !important;
+    fill: #697080;
+}
+
+.header-chart-panel .space-single {
+    padding: 0;
+}
+
+.header-chart-panel .header-chart-panel-sizer {
+    border-top: 1px solid #e6ecf2;
+    border-bottom: 1px solid #e6ecf2;
+    height: 23px;
+    box-sizing: content-box;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left {
+    height: 23px;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left .group {
+    height: 100%;
+}
+
+.header-chart-panel .header-chart-panel-sizer .left .group.header-group-properties {
+    border-left: 1px solid #e6ecf2;
+    border-right: 1px solid #e6ecf2;
+}
+
+.chart-page .tv-side-toolbar .group .button,
+.chart-page .header-chart-panel .group .button {
+    font-weight: normal;
+    color: #697080;
+    background-color: #fff;
+    padding: 0 6px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.chart-page .tv-side-toolbar .group .button:hover,
+.chart-page .tv-side-toolbar .group .button.selected,
+.chart-page .header-chart-panel .group .button:hover,
+.chart-page .header-chart-panel .group .button.selected {
+    background: rgba(229, 235, 245, .5);
+    color: #357ce1;
+}
+
+
+/* legend样式重置*/
+
+.pane-legend {
+    color: rgb(90, 104, 129);
+}
+
+.pane-legend-line.pane-legend-wrap.main {
+    padding-top: 4px;
+    padding-right: 15px !important;
+}
+
+.pane-legend-line.pane-legend-wrap.main .pane-legend-item-value-wrap {
+    font-size: 9pt;
+    line-height: 20px;
+}
+
+.pane-legend-line.pane-legend-wrap.main .pane-legend-item-value-wrap span {
+    font-size: 11pt;
+}
+
+
+/* 左侧弹出框样式 */
+
+.layout__area--left .tv-side-toolbar {
+    background-color: #fff !important;
+}
+
+.tv-side-toolbar .tv-close-panel {
+    background-color: #fff !important;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    bottom: 20%;
+}
+
+.chart-page .tv-side-toolbar .tools-group .button {
+    background-color: #fff !important;
+}
+
+.chart-page .tv-side-toolbar .tools-group .button:hover {
+    background-color: #fff !important;
+}
